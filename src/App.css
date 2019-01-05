@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product {
+    border: 2px solid #e7eaee;
+    border-radius: 10px;
+    width: calc(25% - 10px);
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+}
+
+button {
+    background-color: #fbfbfb;
+    border: 2px solid #e7eaee;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+}
+
+button:hover {
+    box-shadow: 0 0 8px 0 #5ec2e7;
+}
